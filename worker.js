@@ -5,7 +5,7 @@ env.allowLocalModels = false;                     // Switch to `true` if you're 
 
 let pipe;
 // UPDATE TO MATCH YOUR MODEL REPOSITORY ON HUGGING FACE HUB
-const modelPath = 'yasirabd/myemoji-gemma-3-270m-it-onnx';
+const modelPath = 'kr15t3n/my-emojigemma-onnx';
 // const modelPath = './modelname-onnx'           // Update if you're using a local model file
 
 // Listen for messages from the main thread
@@ -105,3 +105,4 @@ self.onmessage = async (event) => {
   }
 
 };
+
